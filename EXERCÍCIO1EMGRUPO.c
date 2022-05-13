@@ -1,4 +1,4 @@
-/*Faça um programa que ordene, em ordem alfabética crescente, o vetor Nomes que contém os seguchares dados: Miriam, Sueli, Ana, Miguel, Daniel, Tales, Humberto. Utilize o método de ordenação por trocas. */
+/*Faça um programa que ordene, em ordem alfabética crescente, o vetor Nomes que contém os seguintes dados: Miriam, Sueli, Ana, Miguel, Daniel, Tales, Humberto. Utilize o método de ordenação por trocas (bsort). * */
 
 
 
@@ -29,7 +29,7 @@ main()
 
     ORDENA();
 
-    printf("Nomes ordenados: \n");
+    printf("Nomes em ordem : \n");
     for(x = 0; x <= 9; x++){
         puts(nome [x]);
     }
